@@ -23,7 +23,7 @@ public class UserController {
 
     @GetMapping("/users1")
     public String getCountries() {
-        return "userprofile";
+        return "profile";
     }
 
 

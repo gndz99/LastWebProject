@@ -70,4 +70,3 @@ public class ApplicationSecurityConfig
         return provider;
     }
 }
-

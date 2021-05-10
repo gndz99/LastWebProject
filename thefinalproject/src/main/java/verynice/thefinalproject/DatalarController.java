@@ -39,4 +39,28 @@ public class DatalarController {
     void del(@PathVariable Integer id) {
         datalarRepository.deleteById(id);
     }
+
+    @GetMapping("/add")
+    public String datalarAdd(Datalar datalar){
+        return "datalar-add";
+    }
+    @PostMapping("/{id}/edit")
+    public String datalarEdit(@PathVariable(value = "id") int id, @RequestParam String firstname, @RequestParam String lastname, @RequestParam String email, @RequestParam String faculty, Datalar datalar){
+        Datalar psot = datalarRepository.findById(id).orElseThrow(IllegalStateException::new);
+        datalar.setFirstname(firstname);
+        datalar.setLastname(lastname);
+        datalar.setEmail(email);
+        datalar.setFaculty(faculty);
+        datalarRepository.save(datalar);
+        return "redirect:/datalar";
+    }
+    @PostMapping("/{id}/delete")
+    public String datalarDelete(@PathVariable(value = "id") int id, Datalar datalar){
+        Datalar datalar1 = datalarRepository.findById(id).orElseThrow(IllegalStateException::new);
+
+        datalarRepository.delete(datalar);
+        return "redirect:/datalar";
+    }
+
+
 }
