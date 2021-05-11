@@ -1,4 +1,4 @@
-# WebProject-MidTerm
+# WebProject-Final
 
 - Name: Gunduzalp Dogrutekin
 - Contact: gunduzalp.dogrutekin@iaau.edu.kg
@@ -11,13 +11,16 @@ This project is a data storing based web application which has a function of sto
 It is a sample representetive web application for Ala-Too International Univeristy
 
 This web applciation uses Heroku as its storage cloud service and the link:
-> Link: [Web-Page](https://alatooweb204.herokuapp.com)
+> Link: [Web-Page](https://cs204thefinal.herokuapp.com/)
 > 
 Please add your information if you have clicked the link and read the about API page which is inside the Nav-Bar
 
 ### Below are some screen shots from the web-application:
+## Login and Register Page
+![login](https://user-images.githubusercontent.com/65071516/117895849-1125ae80-b2e1-11eb-868d-9b4a3d9bbbd9.PNG)
+![register](https://user-images.githubusercontent.com/65071516/117895869-1e429d80-b2e1-11eb-92a7-2f79266b8709.PNG)
 ## Main Page and Navbar
-<img src="https://user-images.githubusercontent.com/65071516/111913866-f7fb4100-8a99-11eb-8f00-0e6d5aa6acb9.PNG">
+![main](https://user-images.githubusercontent.com/65071516/117896048-8abd9c80-b2e1-11eb-8307-3360fe4f0a5c.PNG)
 
 So the main page consists of a big data table above it there is a short description of the web application and also there is a Nav-Bar.
 
@@ -26,7 +29,8 @@ About API where the information is about how API is been used.
 
 ***ABOUT API Page***
 
-<img src="https://user-images.githubusercontent.com/65071516/111916532-9e990f00-8aa5-11eb-8893-180805c1cec2.PNG">
+![about](https://user-images.githubusercontent.com/65071516/117895977-5c3fc180-b2e1-11eb-8c2a-b85dbbb87cf5.PNG)
+
 
 ## Database
 
